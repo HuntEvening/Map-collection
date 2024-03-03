@@ -1,0 +1,39 @@
+$bg-light: #c4b098;
+$bg-dark: #131b1f;
+
+$text-light: #ececec;
+$text-mid: #9d7a61;
+$text-dark: #0a1215;
+
+$hl-red-1: #660101;
+$hl-red-2: #4c0101;
+
+
+$paragraph-font: 'Merriweather';
+$paragraph-font-light: 'Merriweather-light';
+$heading-font: 'Motextura';
+
+$heading-size-1: 80px;
+$heading-size-2: 40px;
+$heading-size-3: 30px;
+$heading-size-4: 25px;
+
+$pragraph-size-1: 24px;
+$pragraph-size-2: 20px;
+$pragraph-size-2: 18px;
+$pragraph-size-3: 16px;
+
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url(~@/assets/fonts/Merriweather-Regular.ttf);
+}
+@font-face {
+  font-family: 'Merriweather-light';
+  src: url(~@/assets/fonts/Merriweather-Light.ttf);
+}
+@font-face {
+  font-family: 'Motextura';
+  src: url(~@/assets/fonts/mo_textura-regular-webfont.ttf);
+}
+
