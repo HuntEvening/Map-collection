@@ -1,7 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from '../views/Home.vue';
-import KirielWorldPage from '../views/Kiriel.vue';
-import ElarisMap from '../views/KirielMaps/Elaris.vue';
+import KrozlyisWorldPage from '../views/KrozlyisWorldPage.vue';
+import KrozlyisMap from '../views/KrozlyisMaps/KrozlyisMapPage.vue';
+import KirielWorldPage from '../views/KirielWorldPage.vue';
+import ElarisMap from '../views/KirielMaps/ElarisMapPage.vue';
 
 const routesList = [
   {
@@ -20,13 +22,23 @@ const routesList = [
     component: HomePage,
   },
   {
+    path: '/krozlyis',
+    name: 'Krozlyis',
+    component: KrozlyisWorldPage,
+  },
+  {
+    path: '/krozlyis-map',
+    name: 'Krozlyis-map',
+    component: KrozlyisMap,
+  },
+  {
     path: '/kiriel',
     name: 'Kiriel',
     component: KirielWorldPage,
   },
   {
-    path: '/elaris',
-    name: 'Elaris',
+    path: '/elaris-map',
+    name: 'elaris-map',
     component: ElarisMap,
   },
 ];
