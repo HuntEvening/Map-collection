@@ -179,7 +179,7 @@ export default {
   width: 70px;
   outline: none;
   padding: 0;
-  margin: 10px;
+  margin: 5vw;
   right: 0;
   pointer-events: initial;
   position: fixed;
@@ -202,7 +202,8 @@ export default {
     width: 70px;
     outline: none;
     padding: 0;
-    margin: 30px;
+    margin-top: 10px;
+    margin-right: 60px;
     right: 0;
     pointer-events: initial;
     position: fixed;

@@ -15,16 +15,16 @@
       <h1 class="light">Worlds</h1>
       <div class="card-group">
         <MapCard
+          header="Krozlyis"
+          imageSrc="KrozlyisMini.jpg"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
+          link="/krozlyis"
+        ></MapCard>
+        <MapCard
           header="Kiriel"
           imageSrc="ElarisMini.png"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
           link="/kiriel"
-        ></MapCard>
-        <MapCard
-          header="Noctura"
-          imageSrc="ElarisMini.png"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
-          link="/noctura"
         ></MapCard>
         <MapCard
           header="Noctura"
@@ -101,7 +101,7 @@ export default {
   .card-group {
     columns: 3;
     column-gap: 60px;
-    margin: 100px 5vw 100px 5vw;
+    margin: 100px 5vw 0 5vw;
 
   }
 }
