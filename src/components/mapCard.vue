@@ -76,6 +76,7 @@ a {
     max-height: 300px;
     max-width: 470px;
     width: 100%;
+    aspect-ratio: 2/3;
     object-fit: cover;
   }
 }

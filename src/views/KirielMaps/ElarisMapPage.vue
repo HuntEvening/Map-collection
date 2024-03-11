@@ -1,20 +1,20 @@
 <template>
-  <div class="Krozlyis">
+  <div class="Elaris">
     <PageHeader
-      title="Krozlyis"
+      title="Elaris"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
     ></PageHeader>
-    <KrozlyisMap></KrozlyisMap>
+    <ElarisMap></ElarisMap>
   </div>
 </template>
 
 <script>
 import PageHeader from '../../components/pageheader.vue';
-import KrozlyisMap from '../../components/KrozlyisMaps/KrozlyisMap.vue';
+import ElarisMap from '../../components/KirielMaps/ElarisMap.vue';
 
 export default {
-  name: 'ElarisMap',
-  components: { PageHeader, KrozlyisMap },
+  name: 'ElarisPage',
+  components: { PageHeader, ElarisMap },
   data() {
     return {};
   },

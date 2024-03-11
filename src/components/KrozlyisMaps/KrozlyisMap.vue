@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div id="mapContainer2" ></div>
+    <div id="mapContainer" ></div>
   </div>
 </template>
 
@@ -79,7 +79,7 @@ export default {
     let mapgrid = L.imageOverlay(krozlyisGrid, this.bounds);
     let maphex = L.imageOverlay(krozlyisHex, this.bounds);
 
-    this.map = L.map('mapContainer2', {
+    this.map = L.map('mapContainer', {
       center: [600, 1000],
       crs: L.CRS.Simple,
       zoom: 0,
@@ -115,7 +115,7 @@ export default {
 <style lang="scss" scoped>
 @import '../../assets/css/base.scss';
 
-#mapContainer2 {
+#mapContainer {
   background-image: url('../../assets/img/texture-bw.png');
   background-size: 422px 422px;
   background-color: $bg-dark;
