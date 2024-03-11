@@ -1,0 +1,16 @@
+[
+  {
+    "name": "value1",
+    "lat": 1175.0,
+    "long": 450.0,
+    "image": "zp-zhang-sketch-harbor.jpg",
+    "link": ""
+  },
+  {
+    "name": "value1",
+    "lat": 2175.0,
+    "long": 450.0,
+    "image": "../../public/assets/Elaris/images/zp-zhang-sketch-harbor.jpg",
+    "link": ""
+  }
+]

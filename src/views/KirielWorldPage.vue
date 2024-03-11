@@ -9,23 +9,24 @@
       <div class="card-group">
         <MapCard
           header="Elaris"
-          imageSrc="KrozlyisMini.jpg"
+          imageSrc="ElarisMini.png"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
           link="/elaris-map"
           button="true"
         ></MapCard>
         <MapCard
           header="Yeren'gar"
-          imageSrc="ElarisMini.png"
+          imageSrc="YerenGarMini.png"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
           link="/yerengar-map"
           button="true"
         ></MapCard>
         <MapCard
-          header="Adrela & Lereon"
-          imageSrc="ElarisMini.png"
+          header="Adrela & Lereon - WIP"
+          subtitle="WIP"
+          imageSrc="AnLMini.png"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
-          link="/noctura"
+          link="/AdrelaLereon-map"
           button="true"
         ></MapCard>
       </div>
@@ -33,14 +34,14 @@
       <div class="card-group">
         <MapCard
           header="Hutching's Hollow - 4710"
-          imageSrc="KrozlyisMini.jpg"
+          imageSrc="HollowMini4710.png"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
           link="/hutchings4710-map"
           button="true"
         ></MapCard>
         <MapCard
           header="Hutching's Hollow - 4883"
-          imageSrc="ElarisMini.png"
+          imageSrc="hollow - 2Mini.png"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
           link="/hutchings4883-map"
           button="true"
