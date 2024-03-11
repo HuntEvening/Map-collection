@@ -38,6 +38,7 @@ export default {
 }
 
 .white-theme {
+  margin: 30px 0 30px 0;
   position: relative;
   overflow: hidden;
   button {
@@ -86,6 +87,7 @@ export default {
   }
 }
 .red-theme {
+  margin: 30px 0 30px 0;
   position: relative;
   overflow: hidden;
   button {
