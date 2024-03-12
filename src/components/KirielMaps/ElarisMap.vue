@@ -92,11 +92,11 @@ export default {
     let countryOutlines = L.imageOverlay(elarisCountries, this.bounds);
 
     this.map = L.map('mapContainer', {
-      center: [600, 1000],
+      center: [750, 1125],
       crs: L.CRS.Simple,
-      zoom: 0,
-      minZoom: 0,
-      maxZoom: 2,
+      zoom: -1,
+      minZoom: -1,
+      maxZoom: 1,
       layers: [mapImage],
       gestureHandling: true,
     });
@@ -137,6 +137,6 @@ export default {
   background-color: $bg-dark;
   background-blend-mode: overlay;
   background-repeat: repeat;
-  height: 100vh;
+  height: 80vh;
 }
 </style>

@@ -90,6 +90,6 @@ export default {
   background-color: $bg-dark;
   background-blend-mode: overlay;
   background-repeat: repeat;
-  height: 100vh;
+  height: 80vh;
 }
 </style>

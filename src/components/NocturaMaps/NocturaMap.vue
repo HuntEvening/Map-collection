@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div id="mapContainer" ></div>
+    <div id="mapContainer"></div>
   </div>
 </template>
 
@@ -10,11 +10,9 @@ import L from 'leaflet';
 import 'leaflet-draw';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-draw/dist/leaflet.draw.css';
-import "leaflet-gesture-handling/dist/leaflet-gesture-handling.css";
-import { GestureHandling } from "leaflet-gesture-handling";
-import NocturaMap from '../../../public/assets/Noctura/NocturaMini.png';
-
-
+import 'leaflet-gesture-handling/dist/leaflet-gesture-handling.css';
+import { GestureHandling } from 'leaflet-gesture-handling';
+import NocturaMap from '../../../public/assets/Noctura/Noctura.png';
 
 export default {
   name: 'NocturaMap',
@@ -25,13 +23,11 @@ export default {
       // size of map area
       bounds: [
         [0, 0],
-        [1400, 3100],
+        [2950, 6260],
       ],
-
     };
   },
   methods: {
-    
     Layers() {
       // let drawnItems = L.featureGroup().addTo(this.map);
 
@@ -64,7 +60,7 @@ export default {
       // );
 
       // add the gesture handling aka ctrl zoom
-      L.Map.addInitHook("addHandler", "gestureHandling", GestureHandling);
+      L.Map.addInitHook('addHandler', 'gestureHandling', GestureHandling);
 
       // this.map.on(L.Draw.Event.CREATED, function (event) {
       //   var layer = event.layer;
@@ -75,26 +71,22 @@ export default {
   mounted() {
     //define what map image
     let mapImage = L.imageOverlay(NocturaMap, this.bounds);
-   
 
     this.map = L.map('mapContainer', {
-      center: [600, 1000],
+      center: [1475, 3130],
+
       crs: L.CRS.Simple,
-      zoom: 0,
-      minZoom: 0,
-      maxZoom: 2,
+      zoom: -2,
+      minZoom: -2,
+      maxZoom: 1,
       layers: [mapImage],
       // scrollWheelZoom: false,
-      gestureHandling: true
-
-
+      gestureHandling: true,
     });
 
     var baseLayers = {
       Map: mapImage,
     };
-
-  
 
     L.control.layers(baseLayers).addTo(this.map);
     this.Layers();
@@ -116,6 +108,6 @@ export default {
   background-color: $bg-dark;
   background-blend-mode: overlay;
   background-repeat: repeat;
-  height: 100vh;
+  height: 80vh;
 }
 </style>

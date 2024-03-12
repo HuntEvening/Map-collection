@@ -41,7 +41,7 @@
         ></MapCard>
         <MapCard
           header="Hutching's Hollow - 4883"
-          imageSrc="hollow - 2Mini.png"
+          imageSrc="HollowMini4883.png"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
           link="/hutchings4883-map"
           button="true"
@@ -83,7 +83,7 @@ export default {
   background-color: $bg-dark;
   background-blend-mode: overlay;
   background-repeat: repeat;
-  border-top: 3px solid $text-mid;
+  border-top: 3px solid #131b1e;
   display: flex;
   flex-direction: column;
   align-items: center;

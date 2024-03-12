@@ -203,7 +203,7 @@ export default {
     outline: none;
     padding: 0;
     margin-top: 10px;
-    margin-right: 60px;
+    margin-right: 100px;
     right: 0;
     pointer-events: initial;
     position: fixed;
