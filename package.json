@@ -14,7 +14,8 @@
     "leaflet-gesture-handling": "^1.2.2",
     "leaflet-measure": "^3.1.0",
     "vue": "^3.2.13",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "vue-showdown": "^4.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

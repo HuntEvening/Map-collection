@@ -13,6 +13,8 @@ import KrozlyisPage from '../views/KrozlyisMaps/KrozlyisMapPage.vue';
 import YerenGarPage from '../views/KirielMaps/YerengarMapPage.vue';
 import NocturaPage from '../views/NocturaMaps/NocturaMapPage.vue';
 
+import LastJob from '../views/Sagas/LastJob.vue'
+
 const routesList = [
   //main pages
   {
@@ -81,6 +83,12 @@ const routesList = [
     path: '/AdrelaLereon-map',
     name: 'AdrelaLereon-map',
     component: AdrelaLereonPage,
+  },
+  //sagas
+  {
+    path: '/last-job',
+    name: 'last-job',
+    component: LastJob,
   },
 ];
 
