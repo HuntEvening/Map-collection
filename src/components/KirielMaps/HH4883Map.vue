@@ -42,11 +42,11 @@ export default {
     let mapImage = L.imageOverlay(HutchingsHollowMap, this.bounds);
 
     this.map = L.map('mapContainer', {
-      center: [2700, 3600],
+      center: [2900, 2900],
       crs: L.CRS.Simple,
       zoom: -3,
       minZoom: -3,
-      maxZoom: 0,
+      maxZoom: 1,
       layers: [mapImage],
       gestureHandling: true,
 

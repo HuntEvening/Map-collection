@@ -43,7 +43,7 @@ export default {
   background-color: $bg-dark;
   background-blend-mode: overlay;
   background-repeat: repeat;
-  border-top: 3px solid $text-mid;
+  border-top: 3px solid #131b1e;
   display: flex;
   flex-direction: column;
   align-items: center;

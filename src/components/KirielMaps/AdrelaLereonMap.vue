@@ -42,7 +42,7 @@ export default {
     let mapImage = L.imageOverlay(AdrelaLereon, this.bounds);
 
     this.map = L.map('mapContainer', {
-      center: [2700, 3600],
+      center: [3500, 4000],
       crs: L.CRS.Simple,
       zoom: -3,
       minZoom: -3,
@@ -76,6 +76,6 @@ export default {
   background-color: $bg-dark;
   background-blend-mode: overlay;
   background-repeat: repeat;
-  height: 100vh;
+  height: 90vh;
 }
 </style>

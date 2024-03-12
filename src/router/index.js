@@ -69,12 +69,12 @@ const routesList = [
   },
   {
     path: '/hutchings4710-map',
-    name: 'hh-map',
+    name: 'hutchings4710-map',
     component: HH4710Page,
   },
   {
     path: '/hutchings4883-map',
-    name: 'hh-map',
+    name: 'hutchings4883-map',
     component: HH4883Page,
   },
   {
