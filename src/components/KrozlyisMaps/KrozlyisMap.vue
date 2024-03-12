@@ -34,43 +34,43 @@ export default {
   methods: {
     
     Layers() {
-      let drawnItems = L.featureGroup().addTo(this.map);
+      // let drawnItems = L.featureGroup().addTo(this.map);
 
-      this.map.addControl(
-        new L.Control.Draw({
-          edit: {
-            marker: false,
-            featureGroup: drawnItems,
-            polyline: {
-              metric: true,
-              feet: false,
-            },
-            polygon: {
-              allowIntersection: false,
-            },
-          },
+      // this.map.addControl(
+      //   new L.Control.Draw({
+      //     edit: {
+      //       marker: false,
+      //       featureGroup: drawnItems,
+      //       polyline: {
+      //         metric: true,
+      //         feet: false,
+      //       },
+      //       polygon: {
+      //         allowIntersection: false,
+      //       },
+      //     },
 
-          draw: {
-            polyline: {
-              metric: true,
-              feet: false,
-            },
-            marker: false,
-            polygon: {
-              allowIntersection: false,
-              showArea: true,
-            },
-          },
-        })
-      );
+      //     draw: {
+      //       polyline: {
+      //         metric: true,
+      //         feet: false,
+      //       },
+      //       marker: false,
+      //       polygon: {
+      //         allowIntersection: false,
+      //         showArea: true,
+      //       },
+      //     },
+      //   })
+      // );
 
       // add the gesture handling aka ctrl zoom
       L.Map.addInitHook("addHandler", "gestureHandling", GestureHandling);
 
-      this.map.on(L.Draw.Event.CREATED, function (event) {
-        var layer = event.layer;
-        drawnItems.addLayer(layer);
-      });
+      // this.map.on(L.Draw.Event.CREATED, function (event) {
+      //   var layer = event.layer;
+      //   drawnItems.addLayer(layer);
+      // });
     },
   },
   mounted() {
@@ -82,9 +82,9 @@ export default {
     this.map = L.map('mapContainer', {
       center: [600, 1000],
       crs: L.CRS.Simple,
-      zoom: 0,
-      minZoom: 0,
-      maxZoom: 2,
+      zoom: -1,
+      minZoom: -1,
+      maxZoom: 1,
       layers: [mapImage],
       // scrollWheelZoom: false,
       gestureHandling: true

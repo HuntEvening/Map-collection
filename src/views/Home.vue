@@ -57,6 +57,8 @@ export default {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: flex-end;
+
   background-color: $bg-light;
   background-image: url('../assets/img/paper-texturelines2.png');
   background-repeat: repeat-x;
@@ -65,7 +67,7 @@ export default {
   background-attachment: fixed;
   overflow-y: hidden;
   .text-group {
-    margin-top: 250px;
+    margin: 25vh 0 25vh 0;
     .heading {
       display: flex;
     }
@@ -74,13 +76,13 @@ export default {
   .ripped-edge {
     width: 100%;
     height: 200px;
-    position: absolute;
+    // position: absolute;
     object-fit: cover;
     bottom: 0;
     left: 0;
   }
   .pointer {
-    position: absolute;
+    // position: absolute;
     bottom: 160px;
     left: 49vw;
     mix-blend-mode: darken;
@@ -93,7 +95,7 @@ export default {
   background-color: $bg-dark;
   background-blend-mode: overlay;
   background-repeat: repeat;
-  border-top: 3px solid $text-mid;
+  border-top: 3px solid #131b1e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,7 +104,6 @@ export default {
     columns: 3;
     column-gap: 60px;
     margin: 100px 5vw 0 5vw;
-
   }
 }
 
