@@ -13,7 +13,7 @@ import KrozlyisPage from '../views/KrozlyisMaps/KrozlyisMapPage.vue';
 import YerenGarPage from '../views/KirielMaps/YerengarMapPage.vue';
 import NocturaPage from '../views/NocturaMaps/NocturaMapPage.vue';
 
-import LastJob from '../views/Sagas/LastJob.vue'
+import LastJob from '../views/Sagas/LastJob.vue';
 
 const routesList = [
   //main pages
@@ -93,7 +93,9 @@ const routesList = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(process.env.BASE_URL),
+  publicPath: process.env.NODE_ENV === 'production' ? '/final-sub-folder' : '',
+
   routes: routesList,
   scrollBehavior() {
     // always scroll to top
