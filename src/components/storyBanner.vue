@@ -117,9 +117,8 @@ img {
   background-color: $bg-light;
   background-image: url('../assets/img/paper-texturelines.png');
   background-repeat: repeat-x;
-  background-position: center 19vh;
+  background-position: center;
   background-size: 100vh;
-  background-attachment: fixed;
   h4 {
     color: $text-dark;
     font-weight: 600;

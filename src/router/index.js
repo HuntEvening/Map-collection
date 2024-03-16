@@ -14,6 +14,9 @@ import YerenGarPage from '../views/KirielMaps/YerengarMapPage.vue';
 import NocturaPage from '../views/NocturaMaps/NocturaMapPage.vue';
 
 import LastJob from '../views/Sagas/LastJob.vue';
+import UnexpectedAppearance from '../views/Sagas/UnexpectedAppearance.vue'
+import AfterMath from '@/views/Sagas/Aftermath.vue';
+
 
 const routesList = [
   //main pages
@@ -89,6 +92,16 @@ const routesList = [
     path: '/last-job',
     name: 'last-job',
     component: LastJob,
+  },
+  {
+    path: '/unexpected-appearance',
+    name: 'unexpected-appearance',
+    component: UnexpectedAppearance,
+  },
+  {
+    path: '/aftermath',
+    name: 'aftermath',
+    component: AfterMath,
   },
 ];
 

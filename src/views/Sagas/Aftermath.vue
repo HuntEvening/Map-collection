@@ -1,12 +1,13 @@
 <template>
   <div>
     <StoryArea
-      file-name="Just-this-last-job.md"
+      fileName="Aftermath.md"
       :bgTheme="false"
       storyType="Backstory"
-      title="Just this last job"
-      description="PART 2 OF THE ELITHANA STORY"
-      imageSrc="sergey-demidov-astral-island.jpg"
+      title="Aftermath"
+      description="PART 3 OF THE ELITHANA STORY"
+      imageSrc="raphael-lacoste-mushies-final-net.jpg"
+      link="/aftermath"
     ></StoryArea>
   </div>
 </template>
@@ -14,7 +15,7 @@
 <script>
 import StoryArea from '../../components/StoryArea.vue';
 export default {
-  name: 'LastJob',
+  name: 'AfterMath',
   components: { StoryArea },
   data() {
     return {};
@@ -25,4 +26,5 @@ export default {
 
 <style lang="scss" scoped>
 @import '../../assets/css/base.scss';
+
 </style>

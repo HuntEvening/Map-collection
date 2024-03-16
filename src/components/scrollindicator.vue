@@ -80,7 +80,7 @@ export default {
   .progress-bar {
     width: 3px;
     // background: $hl-red-2;
-    background: $text-mid;
+    background: $hl-red-2;
     height: 0%;
     img {
       position: absolute;
@@ -100,7 +100,6 @@ export default {
     display: flex;
     justify-content: center;
     background-color: $bg-dark;
-    height: 6vh;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -114,7 +113,7 @@ export default {
 
     /* The progress bar (scroll indicator) */
     .progress-bar {
-      background: $text-mid;
+      background: $hl-red-2;
       height: 3px;
       img {
         position: absolute;

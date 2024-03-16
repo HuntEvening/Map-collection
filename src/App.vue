@@ -27,6 +27,7 @@ body {
 /* marker styling */
 .marker-image {
   max-width: 400px;
+  max-height: 400px;
 }
 .leaflet-popup-content {
   width: auto !important;

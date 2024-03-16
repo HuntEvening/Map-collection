@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div>
     <header id="header">
       <nav class="nav">
         <button @click="openMenu()" class="toggle-menu">

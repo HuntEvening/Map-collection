@@ -6,7 +6,7 @@ $text-mid: #9d7a61;
 $text-dark: #0a1215;
 
 $hl-red-1: #660101;
-$hl-red-2: #440000;
+$hl-red-2: #3a0000;
 
 $paragraph-font: 'Merriweather';
 $paragraph-font-light: 'Merriweather-light';
@@ -27,14 +27,12 @@ $paragraph-size-1: 24px;
 $paragraph-size-2: 20px;
 $paragraph-size-3: 18px;
 $paragraph-size-4: 16px;
+$paragraph-size-4-mobile: 14px;
 
 $menu-color: #ffffff;
 $menu-font-size: 2.5rem;
 $menu-zindex: 1100;
 $hamburger-zindex: $menu-zindex + 10;
-
-
-
 
 h1,
 h2,
@@ -56,6 +54,7 @@ h1 {
   text-transform: uppercase;
   color: $text-dark;
   letter-spacing: 2px;
+  text-align: center;
 }
 h2::first-letter {
   font-family: $heading-font;
@@ -86,6 +85,11 @@ h5 {
   color: $text-mid;
   font-weight: 300;
 }
+.white {
+  color: $text-light !important;
+  font-weight: 400;
+}
+
 .light {
   color: $text-mid !important;
   font-weight: 400;
@@ -111,6 +115,18 @@ p {
 @font-face {
   font-family: 'Motextura';
   src: url(~@/assets/fonts/mo_textura-regular-webfont.ttf);
+}
+
+.markdown-container {
+  margin: auto;
+  max-width: 700px;
+  margin-top: 10vh;
+  padding: 5vw;
+  font-family: $paragraph-font-light;
+  font-size: $paragraph-size-4-mobile;
+  color: $text-light;
+  line-height: 25px;
+  padding-bottom: 20vh;
 }
 
 @media (min-width: 425px) {
@@ -159,5 +175,16 @@ p {
     font-family: $paragraph-font-light;
     font-size: $paragraph-size-3;
     color: $text-light;
+  }
+  .markdown-container {
+    margin: auto;
+    max-width: 700px;
+    margin-top: 10vh;
+    padding: 5vw;
+    font-family: $paragraph-font-light;
+    font-size: $paragraph-size-4;
+    color: $text-light;
+    line-height: 25px;
+    
   }
 }
