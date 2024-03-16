@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div id="mapContainer" ></div>
+    <div id="mapContainer"></div>
   </div>
 </template>
 
@@ -39,19 +39,22 @@ export default {
       shadowSize: [41, 41],
     });
   },
-  methods: {
-    Layers() {
-      let drawnItems = L.featureGroup().addTo(this.map);
-
-      this.map.on(L.Draw.Event.CREATED, function (event) {
-        var layer = event.layer;
-
-        drawnItems.addLayer(layer);
-      });
-      L.Map.addInitHook('addHandler', 'gestureHandling', GestureHandling);
-    },
-  },
+  methods: {},
   mounted() {
+    L.Map.addInitHook('addHandler', 'gestureHandling', GestureHandling);
+
+    // const sagas = L.layerGroup();
+    const UnexpectedAppearance = L.marker([3100, 2070]).bindPopup(
+      `<a href="/unexpected-appearance">Saga: Unexpected appearance</a>`
+    );
+    const LastJob = L.marker([4100, 4000]).bindPopup(
+      `<img class="marker-image" src="${require('../../assets/img/storyImages/sergey-demidov-astral-island.jpg')}"><a href="/last-job">Saga: Just this last job</a>`
+    );
+    const AfterMath = L.marker([3610, 4230]).bindPopup(
+      `<img class="marker-image" src="${require('../../assets/img/storyImages/raphael-lacoste-mushies-final-net.jpg')}"><a href="/aftermath">Saga: Aftermath</a>`
+    );
+    var sagas = L.layerGroup([UnexpectedAppearance, LastJob, AfterMath]);
+
     //define what map image
     let mapImage = L.imageOverlay(YerenGarMap, this.bounds);
 
@@ -61,17 +64,17 @@ export default {
       zoom: -3,
       minZoom: -3,
       maxZoom: 0,
-      layers: [mapImage],
+      layers: [mapImage, sagas],
       gestureHandling: true,
-
     });
 
     var baseLayers = {
       Map: mapImage,
     };
-
-    L.control.layers(baseLayers).addTo(this.map);
-    this.Layers();
+    const overlays = {
+      Sagas: sagas,
+    };
+    L.control.layers(baseLayers, overlays).addTo(this.map);
   },
   onBeforeUnmount() {
     if (this.map) {

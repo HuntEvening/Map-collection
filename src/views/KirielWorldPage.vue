@@ -103,6 +103,7 @@ export default {
   .card-group {
     columns: 1 !important;
     column-gap: 60px;
+    flex-direction: column;
   }
 }
 </style>

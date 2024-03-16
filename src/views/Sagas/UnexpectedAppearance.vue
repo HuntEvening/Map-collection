@@ -1,12 +1,11 @@
 <template>
   <div>
-    <StoryArea
-      file-name="Just-this-last-job.md"
-      :bgTheme="false"
-      storyType="Backstory"
-      title="Just this last job"
-      description="PART 2 OF THE ELITHANA STORY"
-      imageSrc="sergey-demidov-astral-island.jpg"
+    <StoryArea fileName="Unexpected-appearance.md"
+    :bgTheme="true"
+        storyType="Backstory"
+        title="Unexpected appearance"
+        description="PART 1 OF THE ELITHANA STORY"
+        link="/unexpected-appearance"
     ></StoryArea>
   </div>
 </template>
@@ -14,7 +13,7 @@
 <script>
 import StoryArea from '../../components/StoryArea.vue';
 export default {
-  name: 'LastJob',
+  name: 'UnexpectedAppearance',
   components: { StoryArea },
   data() {
     return {};
