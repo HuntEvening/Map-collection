@@ -1,6 +1,9 @@
 <template>
-  <router-link :to="link">
-    <div :class="[button, bgTheme ? 'bg-theme' : 'image-theme']">
+  <div>
+    <router-link
+      :to="link"
+      :class="[button, bgTheme ? 'bg-theme' : 'image-theme']"
+    >
       <div class="text-area">
         <h4>{{ storyType }}</h4>
         <h1>{{ title }}</h1>
@@ -12,8 +15,8 @@
       </div>
       <div v-if="imageSrc" class="img-overlay"></div>
       <img v-if="imageSrc" :src="resolve_img_url(imageSrc)" />
-    </div>
-  </router-link>
+    </router-link>
+  </div>
 </template>
 
 <script>
@@ -60,7 +63,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@import '../assets/css/base.scss';
+@import '@/assets/css/base.scss';
 a {
   text-decoration: none;
 }

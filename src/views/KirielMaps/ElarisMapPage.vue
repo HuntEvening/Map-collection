@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import PageHeader from '../../components/pageheader.vue';
-import ElarisMap from '../../components/KirielMaps/ElarisMap.vue';
+import PageHeader from '@/components/pageheader.vue';
+import ElarisMap from '@/components/KirielMaps/ElarisMap.vue';
 
 export default {
   name: 'ElarisPage',
@@ -22,5 +22,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../../assets/css/base.scss';
+@import '@/assets/css/base.scss';
 </style>

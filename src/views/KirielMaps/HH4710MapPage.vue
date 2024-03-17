@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import PageHeader from '../../components/pageheader.vue';
-import HH4710Map from '../../components/KirielMaps/HH4710Map.vue';
+import PageHeader from '@/components/pageheader.vue';
+import HH4710Map from '@/components/KirielMaps/HH4710Map.vue';
 
 export default {
   name: 'HH4710Page',
@@ -22,5 +22,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../../assets/css/base.scss';
+@import '@/assets/css/base.scss';
 </style>

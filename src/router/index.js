@@ -1,22 +1,24 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomePage from '../views/Home.vue';
+import HomePage from '@/views/Home.vue';
+import SagasLandingPage from '@/views/SagasLandingPage.vue';
 
-import KirielWorldPage from '../views/KirielWorldPage.vue';
-import KrozlyisWorldPage from '../views/KrozlyisWorldPage.vue';
-import NocturaWorldPage from '../views/NocturaWorldPage.vue';
+import KirielWorldPage from '@/views/KirielWorldPage.vue';
+import KrozlyisWorldPage from '@/views/KrozlyisWorldPage.vue';
+import NocturaWorldPage from '@/views/NocturaWorldPage.vue';
 
-import AdrelaLereonPage from '../views/KirielMaps/AdrelaLereonMapPage.vue';
-import ElarisPage from '../views/KirielMaps/ElarisMapPage.vue';
-import HH4710Page from '../views/KirielMaps/HH4710MapPage.vue';
-import HH4883Page from '../views/KirielMaps/HH4883MapPage.vue';
-import KrozlyisPage from '../views/KrozlyisMaps/KrozlyisMapPage.vue';
-import YerenGarPage from '../views/KirielMaps/YerengarMapPage.vue';
-import NocturaPage from '../views/NocturaMaps/NocturaMapPage.vue';
+import AdrelaLereonPage from '@/views/KirielMaps/AdrelaLereonMapPage.vue';
+import ElarisPage from '@/views/KirielMaps/ElarisMapPage.vue';
+import HH4710Page from '@/views/KirielMaps/HH4710MapPage.vue';
+import HH4883Page from '@/views/KirielMaps/HH4883MapPage.vue';
+import KrozlyisPage from '@/views/KrozlyisMaps/KrozlyisMapPage.vue';
+import YerenGarPage from '@/views/KirielMaps/YerengarMapPage.vue';
+import NocturaPage from '@/views/NocturaMaps/NocturaMapPage.vue';
 
-import LastJob from '../views/Sagas/LastJob.vue';
-import UnexpectedAppearance from '../views/Sagas/UnexpectedAppearance.vue'
+import LastJob from '@/views/Sagas/LastJob.vue';
+import UnexpectedAppearance from '@/views/Sagas/UnexpectedAppearance.vue';
 import AfterMath from '@/views/Sagas/Aftermath.vue';
 
+import AleriaPage from '@/views/CharacterPages/Aleria.vue';
 
 const routesList = [
   //main pages
@@ -28,7 +30,7 @@ const routesList = [
   {
     path: '/sagas',
     name: 'Sagas',
-    component: HomePage,
+    component: SagasLandingPage,
   },
   {
     path: '/about',
@@ -102,6 +104,12 @@ const routesList = [
     path: '/aftermath',
     name: 'aftermath',
     component: AfterMath,
+  },
+  // characters
+  {
+    path: '/aleria',
+    name: 'aleria',
+    component: AleriaPage,
   },
 ];
 

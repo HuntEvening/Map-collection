@@ -34,9 +34,9 @@
 </template>
 
 <script>
-import PageHeader from '../../components/pageheader.vue';
-import YerengarMap from '../../components/KirielMaps/YerengarMap.vue';
-import StoryBanner from '../../components/storyBanner.vue';
+import PageHeader from '@/components/pageheader.vue';
+import YerengarMap from '@/components/KirielMaps/YerengarMap.vue';
+import StoryBanner from '@/components/storyBanner.vue';
 
 export default {
   name: 'YerenGarPage',
@@ -48,7 +48,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../../assets/css/base.scss';
+@import '@/assets/css/base.scss';
 .story-selection {
   background-image: url('../../assets/img/texture-bw.png');
   background-size: 422px 422px;
