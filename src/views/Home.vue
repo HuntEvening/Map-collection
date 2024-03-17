@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import MapCard from '../components/mapCard.vue';
+import MapCard from '@/components/mapCard.vue';
 export default {
   name: 'HomePage',
   components: { MapCard },
@@ -49,7 +49,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/css/base.scss';
+@import '@/assets/css/base.scss';
 
 .image-hero {
   height: 100vh;

@@ -21,8 +21,8 @@
 </template>
 
 <script>
-import PageHeader from '../components/pageheader.vue';
-import MapCard from '../components/mapCard.vue';
+import PageHeader from '@/components/pageheader.vue';
+import MapCard from '@/components/mapCard.vue';
 import 'leaflet/dist/leaflet.css';
 
 export default {
@@ -35,7 +35,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/css/base.scss';
+@import '@/assets/css/base.scss';
 
 .map-selection {
   background-image: url('../assets/img/texture-bw.png');

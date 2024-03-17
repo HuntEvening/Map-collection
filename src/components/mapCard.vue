@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import MapButton from '../components/button.vue';
+import MapButton from '@/components/button.vue';
 export default {
   name: 'MapCard',
   props: {

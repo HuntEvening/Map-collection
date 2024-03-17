@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import StoryArea from '../../components/StoryArea.vue';
+import StoryArea from '@/components/StoryArea.vue';
 export default {
   name: 'AfterMath',
   components: { StoryArea },
@@ -25,6 +25,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../../assets/css/base.scss';
+@import '@/assets/css/base.scss';
 
 </style>

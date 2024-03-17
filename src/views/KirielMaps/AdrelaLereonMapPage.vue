@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import PageHeader from '../../components/pageheader.vue';
-import AdrelaLereonMap from '../../components/KirielMaps/AdrelaLereonMap.vue';
+import PageHeader from '@/components/pageheader.vue';
+import AdrelaLereonMap from '@/components/KirielMaps/AdrelaLereonMap.vue';
 
 export default {
   name: 'AdrelaLereonPage',
@@ -22,5 +22,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../../assets/css/base.scss';
+@import '@/assets/css/base.scss';
 </style>

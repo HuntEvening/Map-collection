@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/css/base.scss';
+@import '@/assets/css/base.scss';
 
 @mixin button($bcolor, $url, $x1, $y1, $bor, $col) {
   background: $bcolor;

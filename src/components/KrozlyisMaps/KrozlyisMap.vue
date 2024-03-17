@@ -113,7 +113,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../../assets/css/base.scss';
+@import '@/assets/css/base.scss';
 
 #mapContainer {
   background-image: url('../../assets/img/texture-bw.png');
