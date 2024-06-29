@@ -4,6 +4,7 @@
       <h4>{{ storyType }}</h4>
       <h1>{{ title }}</h1>
       <p>{{ description }}</p>
+      <p>{{ world }}</p>
     </div>
     <div v-if="imageSrc" class="img-overlay"></div>
     <img v-if="imageSrc" :src="resolve_img_url(imageSrc)" />
@@ -15,6 +16,9 @@
       </h4>
       <p>
         {{ description }}
+      </p>
+      <p>
+        {{ world }}
       </p>
     </div>
     <div class="markdown-container">
@@ -51,6 +55,9 @@ export default {
       type: String,
     },
     description: {
+      type: String,
+    },
+    world: {
       type: String,
     },
     imageSrc: {
@@ -161,7 +168,7 @@ img {
   background-color: $bg-light;
   background-image: url('../assets/img/paper-texturelines.png');
   background-repeat: repeat-x;
-  background-position: center ;
+  background-position: center;
   background-size: 100vh;
   h4 {
     color: $text-dark;
@@ -187,6 +194,5 @@ img {
   .title {
     padding: 20px 20vw 10px 5vw;
   }
-  
 }
 </style>

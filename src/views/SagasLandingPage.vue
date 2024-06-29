@@ -5,6 +5,7 @@
       storyType="Backstory"
       title="Unexpected appearance"
       description="PART 1 OF THE ELITHANA STORY"
+      world="KIRIEL - YEREN'GAR"
       link="/unexpected-appearance"
     />
     <StoryBanner
@@ -12,6 +13,7 @@
       storyType="Backstory"
       title="Just this last job"
       description="PART 2 OF THE ELITHANA STORY"
+      world="KIRIEL - YEREN'GAR"
       imageSrc="sergey-demidov-astral-island.jpg"
       link="/last-job"
     />
@@ -20,6 +22,7 @@
       storyType="Backstory"
       title="Aftermath"
       description="PART 3 OF THE ELITHANA STORY"
+      world="KIRIEL - YEREN'GAR"
       imageSrc="raphael-lacoste-mushies-final-net.jpg"
       link="/aftermath"
     />

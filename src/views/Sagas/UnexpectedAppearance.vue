@@ -5,6 +5,7 @@
         storyType="Backstory"
         title="Unexpected appearance"
         description="PART 1 OF THE ELITHANA STORY"
+        world="KIRIEL - YEREN'GAR"
         link="/unexpected-appearance"
     ></StoryArea>
   </div>

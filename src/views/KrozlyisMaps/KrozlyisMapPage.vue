@@ -2,7 +2,6 @@
   <div class="Krozlyis">
     <PageHeader
       title="Krozlyis"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
     ></PageHeader>
     <KrozlyisMapPage></KrozlyisMapPage>
   </div>

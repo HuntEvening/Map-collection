@@ -2,7 +2,6 @@
   <div class="home">
     <PageHeader
       title="Krozlyis"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
     ></PageHeader>
     <div class="map-selection">
       <h1 class="light">Maps</h1>
@@ -11,31 +10,17 @@
         <MapCard
           header="Krozlyis"
           imageSrc="KrozlyisMini.jpg"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
           link="/krozlyis-map"
           button="true"
         ></MapCard>
-        <!-- <MapCard
-          header="Noctura"
-          imageSrc="ElarisMini.png"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
-          link="/noctura"
-          button="true"
-        ></MapCard>
-        <MapCard
-          header="Noctura"
-          imageSrc="ElarisMini.png"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
-          link="/noctura"
-          button="true"
-        ></MapCard> -->
       </div>
       <h1 class="light">Characters</h1>
       <div class="char-card-group">
         <CharacterCard
-          header="Elithana 'Sunwalker'"
-          imageSrc="eli.png"
-          link="/elithana"
+          header="Aleria Taran"
+          imageSrc="Aleria.jpg"
+          link="/aleria"
+          objectPosition="left"
         ></CharacterCard>
       </div>
     </div>
@@ -72,10 +57,10 @@ export default {
   align-items: center;
   padding-top: 70px;
   .card-group {
-    columns: 3;
-    column-gap: 2.5vw;
-    margin: 100px 5vw 100px 5vw;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5vw;
+    margin: 100px 5vw 0 5vw;
   }
   .char-card-group {
     margin: 100px 5vw 100px 5vw;
@@ -84,8 +69,9 @@ export default {
 }
 @media (max-width: 768px) {
   .card-group {
-    columns: 1 !important;
-    column-gap: 60px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 2.5vw;
   }
 }
 </style>

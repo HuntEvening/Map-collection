@@ -2,8 +2,22 @@
   <div class="home">
     <PageHeader
       title="Noctura"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
-    ></PageHeader>
+      description="Welcome to the word of Noctura!
+
+A world where civilisation has been long destroyed by the darkness that consumed it.
+
+Seven days of light and seven days of night. A night that corrupts and destroys anything that is too slow to escape it.
+
+With the help of the worlds most powerful spellcasters and artifacts, most of Noctura's population had abandoned it and made their way to safer planes.
+
+It is now 300 years after the great exodus of Noctura and the remaining population have taken refuge in underground settlements that pray for their doors to hold out each cycle.
+
+Rumour has it that there are cities the size of mountains that roam the land outside, never having to fear the darkness, powered by the crystals found deep inside the mines these underground settlements had repurposed as their homes.
+
+Perhaps you will found the next paradise for your fellow survivors?
+Maybe you will uncover the truth behind the deadly darkness?
+Or maybe you'll just survive long enough to die peacefully..."
+></PageHeader>
     <div class="map-selection">
       <h1 class="light">Maps</h1>
 
@@ -11,7 +25,6 @@
         <MapCard
           header="Noctura"
           imageSrc="NocturaMini.png"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
           link="/noctura-map"
           button="true"
         ></MapCard>
@@ -49,10 +62,10 @@ export default {
   align-items: center;
   padding-top: 70px;
   .card-group {
-    columns: 3;
-    column-gap: 2.5vw;
-    margin: 100px 5vw 100px 5vw;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5vw;
+    margin: 100px 5vw 0 5vw;
   }
   .char-card-group {
     margin: 100px 5vw 100px 5vw;
@@ -61,8 +74,9 @@ export default {
 }
 @media (max-width: 768px) {
   .card-group {
-    columns: 1 !important;
-    column-gap: 60px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 2.5vw;
   }
 }
 </style>

@@ -6,6 +6,7 @@
       storyType="Backstory"
       title="Just this last job"
       description="PART 2 OF THE ELITHANA STORY"
+      world="KIRIEL - YEREN'GAR"
       imageSrc="sergey-demidov-astral-island.jpg"
     ></StoryArea>
   </div>
