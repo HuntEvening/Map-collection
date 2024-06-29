@@ -71,10 +71,17 @@ a {
   max-width: 470px;
   cursor: pointer;
   margin-bottom: 100px;
+  p {
+    margin: 35px 0;
+    text-align: center;
+    min-height: 50px;
+  }
   img {
     margin-top: 55px;
     max-height: 300px;
     max-width: 470px;
+    min-width: 30vw;
+
     width: 100%;
     aspect-ratio: 2/3;
     object-fit: cover;

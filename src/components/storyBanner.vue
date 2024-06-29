@@ -8,6 +8,7 @@
         <h4>{{ storyType }}</h4>
         <h1>{{ title }}</h1>
         <p>{{ description }}</p>
+        <p>{{ world }}</p>
         <Button
           title="Read story"
           :redVariant="bgTheme ? true : false"
@@ -31,6 +32,9 @@ export default {
       type: String,
     },
     description: {
+      type: String,
+    },
+    world: {
       type: String,
     },
     imageSrc: {
@@ -84,6 +88,11 @@ a {
     color: $text-light;
     font-weight: 400;
   }
+  p {
+    color: $text-light;
+    font-weight: 400;
+    margin: 5px;
+  }
 }
 .text-area {
   display: flex;
@@ -133,6 +142,7 @@ img {
   p {
     color: $text-dark;
     font-weight: 600;
+    margin: 5px;
   }
 }
 .text-area {

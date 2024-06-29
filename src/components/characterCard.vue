@@ -2,7 +2,11 @@
   <router-link :to="link">
     <div class="card-wrapper">
       <h5>{{ header }}</h5>
-      <img :src="resolve_img_url(imageSrc)" :alt="imageAlt" />
+      <img
+        :src="resolve_img_url(imageSrc)"
+        :alt="imageAlt"
+        :style="{ objectPosition: objectPosition}"
+      />
     </div>
   </router-link>
 </template>
@@ -21,6 +25,9 @@ export default {
     link: {
       type: String,
     },
+    objectPosition: {
+      type: String,
+    },
   },
   components: {},
   data() {
@@ -35,8 +42,11 @@ export default {
       );
       return images('./' + path);
     },
+    
   },
+
 };
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

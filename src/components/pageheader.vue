@@ -3,7 +3,9 @@
     <div class="text-group">
       <h1 class="title">{{ title }}</h1>
       <div class="description">
-        <p class="dark">{{ description }}</p>
+        <p class="dark">
+          <VueShowdown :markdown="description" flavor="github" />
+        </p>
       </div>
     </div>
     <img class="ripped-edge" src="../assets/img/ripped2.png" />
@@ -11,8 +13,12 @@
 </template>
 
 <script>
+  import { VueShowdown } from 'vue-showdown';
+  
 export default {
+
   name: 'PageHeader',
+  components: { VueShowdown },
   props: {
     title: {
       type: String,

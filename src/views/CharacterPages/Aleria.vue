@@ -1,11 +1,21 @@
 <template>
   <div>
-    <CharacterBanner></CharacterBanner>
+    <CharacterBanner
+      name="Aleria Taran"
+      subheader=""
+      race="Tiefling"
+      age="20"
+      gender="Female"
+      dndclass="Wild Magic Sorcerer"
+      quote='"AAAAAAAND DETONATE!"'
+      world="Krozlyis"
+      system="D&D"
+    ></CharacterBanner>
   </div>
 </template>
 
 <script>
-import CharacterBanner from '@/components/characterBanner.vue'
+import CharacterBanner from '@/components/characterBanner.vue';
 
 export default {
   name: 'AdrelaLereonPage',

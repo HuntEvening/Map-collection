@@ -17,19 +17,19 @@
         <MapCard
           header="Krozlyis"
           imageSrc="KrozlyisMini.jpg"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
+          description="Homebrew D&D world created by Zylkoris"
           link="/krozlyis"
         ></MapCard>
         <MapCard
           header="Kiriel"
           imageSrc="ElarisMini.png"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
+          description="Homenbrew D&D and Pathfinder Wolrds created by HuntEvening and Seattle"
           link="/kiriel"
         ></MapCard>
         <MapCard
           header="Noctura"
           imageSrc="NocturaMini.png"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu orci sed leo dignissim porta nec efficitur diam. Cras venenatis est faucibus ex dapibus, eget ultrices odio tempor. Phasellus et maximus diam."
+          description="Homebrew D&D world created by Ghost"
           link="/noctura"
         ></MapCard>
       </div>
@@ -101,16 +101,18 @@ export default {
   align-items: center;
   padding-top: 70px;
   .card-group {
-    columns: 3;
-    column-gap: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5vw;
     margin: 100px 5vw 0 5vw;
   }
 }
 
 @media (max-width: 768px) {
   .card-group {
-    columns: 1 !important;
-    column-gap: 60px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 2.5vw;
   }
 }
 </style>
