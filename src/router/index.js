@@ -17,6 +17,7 @@ import NocturaPage from '@/views/NocturaMaps/NocturaMapPage.vue';
 import LastJob from '@/views/Sagas/LastJob.vue';
 import UnexpectedAppearance from '@/views/Sagas/UnexpectedAppearance.vue';
 import AfterMath from '@/views/Sagas/Aftermath.vue';
+import SurfaceJob from '@/views/Sagas/SurfaceJob.vue';
 
 import AleriaPage from '@/views/CharacterPages/Aleria.vue';
 
@@ -104,6 +105,11 @@ const routesList = [
     path: '/aftermath',
     name: 'aftermath',
     component: AfterMath,
+  },
+  {
+    path: '/surface-job',
+    name: 'surface-job',
+    component: SurfaceJob,
   },
   // characters
   {

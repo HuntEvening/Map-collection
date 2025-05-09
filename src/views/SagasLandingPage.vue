@@ -26,6 +26,14 @@
       imageSrc="raphael-lacoste-mushies-final-net.jpg"
       link="/aftermath"
     />
+    <StoryBanner
+      :bgTheme="true"
+      storyType="Story"
+      title="Surface job"
+      description="Memory of the past"
+      world="KIRIEL - ADRELA"
+      link="/surface-job"
+    />
   </div>
 </template>
 
