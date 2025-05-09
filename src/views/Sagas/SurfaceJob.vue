@@ -1,7 +1,7 @@
 <template>
   <div>
     <StoryArea
-      fileName="surface-job.md"
+      fileName="Surface-job.md"
       :bgTheme="true"
       storyType="Story"
       title="Surface job"
