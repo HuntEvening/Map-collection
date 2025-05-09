@@ -10,7 +10,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import 'leaflet-gesture-handling/dist/leaflet-gesture-handling.css';
 import { GestureHandling } from 'leaflet-gesture-handling';
-import elarisMap from '../../../public/assets/Elaris/elarismap/Firefinal.png';
+import elarisMap from '../../../public/assets/Elaris/elarismap/Firefinal.webp';
 import elarisCountries from '../../../public/assets/Elaris/elarismap/Fireoutline.png';
 //import json from "/Kiriel/kiriel-project/public/assets/Elaris/ElarisCoordinates.json";
 

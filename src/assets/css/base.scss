@@ -103,7 +103,17 @@ p {
   font-size: $paragraph-size-4;
   color: $text-light;
 }
-
+a {
+  font-family: $paragraph-font-light;
+  font-size: $paragraph-size-4;
+  color: $text-light;
+}
+figcaption {
+  margin: 10px 0;
+  font-family: $paragraph-font-light;
+  font-size: $paragraph-size-4;
+  color: $text-light;
+}
 @font-face {
   font-family: 'Merriweather';
   src: url(~@/assets/fonts/Merriweather-Regular.ttf);
@@ -176,6 +186,18 @@ p {
     font-size: $paragraph-size-3;
     color: $text-light;
   }
+  a {
+    font-family: $paragraph-font-light;
+    font-size: $paragraph-size-3;
+    color: $text-light;
+  }
+  figcaption {
+    font-family: $paragraph-font-light;
+    font-size: $paragraph-size-4;
+    color: $text-light;
+    margin: 10px 0;
+    text-align: right;
+  }
   .markdown-container {
     margin: auto;
     max-width: 700px;
@@ -185,6 +207,5 @@ p {
     font-size: $paragraph-size-4;
     color: $text-light;
     line-height: 25px;
-    
   }
 }

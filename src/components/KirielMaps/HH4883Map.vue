@@ -10,7 +10,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import 'leaflet-gesture-handling/dist/leaflet-gesture-handling.css';
 import { GestureHandling } from 'leaflet-gesture-handling';
-import HutchingsHollowMap from '../../../public/assets/HutchingsHollow/HH4883.png';
+import HutchingsHollowMap from '../../../public/assets/HutchingsHollow/HH4883.webp';
 //import json from "/Kiriel/kiriel-project/public/assets/Elaris/ElarisCoordinates.json";
 
 export default {

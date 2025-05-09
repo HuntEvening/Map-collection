@@ -5,7 +5,7 @@
       <img
         :src="resolve_img_url(imageSrc)"
         :alt="imageAlt"
-        :style="{ objectPosition: objectPosition}"
+        :style="{ objectPosition: objectPosition }"
       />
     </div>
   </router-link>
@@ -38,15 +38,12 @@ export default {
       let images = require.context(
         '../assets/img/charAssets/',
         false,
-        /\.png$|\.jpg$/
+        /\.(png|jpe?g|webp)$/ // now supports .png, .jpg, .jpeg, and .webp
       );
       return images('./' + path);
     },
-    
   },
-
 };
-
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

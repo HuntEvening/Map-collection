@@ -35,7 +35,7 @@
         <MapCard
           header="Hutching's Hollow - 4710"
           imageSrc="HollowMini4710.png"
-          description="One of my campaign made the choice to switch from D&D to pathfinder and such our characters got sucked though a painting and spat out in a new world, there to meet them was the town of hutching's hollow"
+          description="One of my campaigns made the choice to switch from D&D to pathfinder and such our characters got sucked though a painting and spat out in a new world, there to meet them was the town of hutching's hollow"
           link="/hutchings4710-map"
           button="true"
         ></MapCard>

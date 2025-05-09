@@ -12,7 +12,7 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet-draw/dist/leaflet.draw.css';
 import 'leaflet-gesture-handling/dist/leaflet-gesture-handling.css';
 import { GestureHandling } from 'leaflet-gesture-handling';
-import NocturaMap from '../../../public/assets/Noctura/Noctura.png';
+import NocturaMap from '../../../public/assets/Noctura/Noctura.webp';
 
 export default {
   name: 'NocturaMap',

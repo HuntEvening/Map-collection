@@ -37,7 +37,6 @@
           <div class="content-right">
             <p>World: {{ world }}</p>
             <p>System: {{ system }}</p>
-      
           </div>
         </div>
       </div>
@@ -45,6 +44,7 @@
     <div class="quote-box">
       <p>{{ quote }}</p>
     </div>
+    <img class="ripped-edge" src="../assets/img/ripped2.png" />
   </div>
 </template>
 
@@ -53,9 +53,7 @@ export default {
   name: 'CharacterBanner',
   components: {},
   data() {
-    return {
-      imageSrc: 'aleriaMini.png',
-    };
+    return {};
   },
   props: {
     name: {
@@ -85,13 +83,19 @@ export default {
     quote: {
       type: String,
     },
+    imageSrc: {
+      type: String,
+    },
+    objectPosition: {
+      type: String,
+    },
   },
   methods: {
     resolve_img_url: function (path) {
       let images = require.context(
         '../assets/img/charAssets/',
         false,
-        /\.png$|\.jpg$/
+        /\.(png|jpe?g|webp)$/ // now supports .png, .jpg, .jpeg, and .webp
       );
       return images('./' + path);
     },
@@ -103,7 +107,7 @@ export default {
 @import '@/assets/css/base.scss';
 
 .CharacterBanner {
-  height: 100vh;
+  // height: 100vh;
   background-color: $bg-light;
   background-image: url('../assets/img/paper-texture.png');
   background-repeat: repeat-x;
@@ -113,8 +117,9 @@ export default {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding-top: 60px;
 }
-.char-names{
+.char-names {
   margin-bottom: 180px;
 }
 .char-info-wrapper {
@@ -213,5 +218,13 @@ export default {
   p {
     margin: 0 0 10px 0 !important;
   }
+}
+.ripped-edge {
+  width: 100%;
+  height: 200px;
+  // position: absolute;
+  object-fit: cover;
+  bottom: 0;
+  left: 0;
 }
 </style>
