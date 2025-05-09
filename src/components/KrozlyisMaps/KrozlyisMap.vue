@@ -12,9 +12,9 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet-draw/dist/leaflet.draw.css';
 import "leaflet-gesture-handling/dist/leaflet-gesture-handling.css";
 import { GestureHandling } from "leaflet-gesture-handling";
-import krozlyisMap from '../../../public/assets/krozlyis/map.jpg';
-import krozlyisGrid from '../../../public/assets/krozlyis/mapgrid.png';
-import krozlyisHex from '../../../public/assets/krozlyis/maphex.png';
+import krozlyisMap from '../../../public/assets/Krozlyis/map.webp';
+import krozlyisGrid from '../../../public/assets/Krozlyis/mapgrid.png';
+import krozlyisHex from '../../../public/assets/Krozlyis/maphex.png';
 
 
 export default {

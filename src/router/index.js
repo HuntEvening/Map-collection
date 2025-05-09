@@ -20,6 +20,9 @@ import AfterMath from '@/views/Sagas/Aftermath.vue';
 import SurfaceJob from '@/views/Sagas/SurfaceJob.vue';
 
 import AleriaPage from '@/views/CharacterPages/Aleria.vue';
+import AhraanPage from '@/views/CharacterPages/Ahraan.vue';
+import SarahPage from '@/views/CharacterPages/Sarah.vue';
+import MordePage from '@/views/CharacterPages/Morde.vue';
 
 const routesList = [
   //main pages
@@ -116,6 +119,21 @@ const routesList = [
     path: '/aleria',
     name: 'aleria',
     component: AleriaPage,
+  },
+  {
+    path: '/ahraan',
+    name: 'Ahraan',
+    component: AhraanPage,
+  },
+  {
+    path: '/sarah',
+    name: 'Sarah',
+    component: SarahPage,
+  },
+  {
+    path: '/morde',
+    name: 'Morde',
+    component: MordePage,
   },
 ];
 

@@ -10,7 +10,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import 'leaflet-gesture-handling/dist/leaflet-gesture-handling.css';
 import { GestureHandling } from 'leaflet-gesture-handling';
-import AdrelaLereon from '../../../public/assets/AnL/AdrelaLereon4.png';
+import AdrelaLereon from '../../../public/assets/AnL/AdrelaLereon.webp';
 //import json from "/Kiriel/kiriel-project/public/assets/Elaris/ElarisCoordinates.json";
 
 export default {

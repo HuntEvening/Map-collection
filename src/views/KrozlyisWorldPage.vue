@@ -1,8 +1,6 @@
 <template>
   <div class="home">
-    <PageHeader
-      title="Krozlyis"
-    ></PageHeader>
+    <PageHeader title="Krozlyis"></PageHeader>
     <div class="map-selection">
       <h1 class="light">Maps</h1>
 
@@ -18,8 +16,26 @@
       <div class="char-card-group">
         <CharacterCard
           header="Aleria Taran"
-          imageSrc="Aleria.jpg"
+          imageSrc="Aleria.webp"
           link="/aleria"
+          objectPosition="left"
+        ></CharacterCard>
+        <CharacterCard
+          header="Ahraan-Lah"
+          imageSrc="ahraanglassart.webp"
+          link="/ahraan"
+          objectPosition="left"
+        ></CharacterCard>
+        <CharacterCard
+          header="Sarah"
+          imageSrc="sarahglassart.webp"
+          link="/sarah"
+          objectPosition="left"
+        ></CharacterCard>
+        <CharacterCard
+          header="Morde"
+          imageSrc="aceofhearts.webp"
+          link="/morde"
           objectPosition="left"
         ></CharacterCard>
       </div>
@@ -31,7 +47,7 @@
 import PageHeader from '@/components/pageheader.vue';
 import MapCard from '@/components/mapCard.vue';
 import CharacterCard from '@/components/characterCard.vue';
-import "leaflet/dist/leaflet.css";
+import 'leaflet/dist/leaflet.css';
 
 export default {
   name: 'KirielWorldPage',
@@ -65,6 +81,7 @@ export default {
   .char-card-group {
     margin: 100px 5vw 100px 5vw;
     display: flex;
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 768px) {
