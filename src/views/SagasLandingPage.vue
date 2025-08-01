@@ -1,39 +1,58 @@
 <template>
   <div class="sagas">
-    <StoryBanner
+<!--     <StoryBanner
       :bgTheme="true"
       storyType="Backstory"
       title="Unexpected appearance"
       description="PART 1 OF THE ELITHANA STORY"
       world="KIRIEL - YEREN'GAR"
       link="/unexpected-appearance"
-    />
+    /> -->
     <StoryBanner
       :bgTheme="false"
-      storyType="Backstory"
+      storyType="Story"
       title="Just this last job"
-      description="PART 2 OF THE ELITHANA STORY"
+      description="PART '13' OF THE ELITHANA STORY"
       world="KIRIEL - YEREN'GAR"
       imageSrc="sergey-demidov-astral-island.jpg"
       link="/last-job"
     />
     <StoryBanner
       :bgTheme="false"
-      storyType="Backstory"
+      storyType="Story"
       title="Aftermath"
-      description="PART 3 OF THE ELITHANA STORY"
+      description="PART '14' OF THE ELITHANA STORY"
       world="KIRIEL - YEREN'GAR"
       imageSrc="raphael-lacoste-mushies-final-net.jpg"
       link="/aftermath"
     />
     <StoryBanner
+      :bgTheme="false"
+      storyType="Story"
+      title="Who's there"
+      description="PART '15' OF THE ELITHANA STORY"
+      world="KIRIEL - YEREN'GAR"
+      imageSrc="tomas-matous-castle-dark.jpg"
+      link="/Whos-there"
+    />
+    <StoryBanner
+      :bgTheme="false"
+      storyType="Story"
+      title="Guards of Edelmere"
+      description="PART '22' OF THE ELITHANA STORY"
+      world="KIRIEL - ADRELA"
+      imageSrc="eddie-mendoza-chateau.jpg"
+      link="/Guards-of-Edelmere"
+    />
+
+<!--     <StoryBanner
       :bgTheme="true"
       storyType="Story"
       title="Surface job"
       description="Memory of the past"
       world="KIRIEL - ADRELA"
       link="/surface-job"
-    />
+    /> -->
   </div>
 </template>
 

@@ -18,6 +18,8 @@ import LastJob from '@/views/Sagas/LastJob.vue';
 import UnexpectedAppearance from '@/views/Sagas/UnexpectedAppearance.vue';
 import AfterMath from '@/views/Sagas/Aftermath.vue';
 import SurfaceJob from '@/views/Sagas/SurfaceJob.vue';
+import WhosThere from '@/views/Sagas/WhosThere.vue';
+import GuardsOfEdelmere from '@/views/Sagas/GuardsOfEdelmere.vue';
 
 import AleriaPage from '@/views/CharacterPages/Aleria.vue';
 import AhraanPage from '@/views/CharacterPages/Ahraan.vue';
@@ -113,6 +115,16 @@ const routesList = [
     path: '/surface-job',
     name: 'surface-job',
     component: SurfaceJob,
+  },
+  {
+    path: '/whos-there',
+    name: 'whos-there',
+    component: WhosThere,
+  },
+  {
+    path: '/guards-of-edelmere',
+    name: 'Guards-of-Edelmere',
+    component: GuardsOfEdelmere,
   },
   // characters
   {
