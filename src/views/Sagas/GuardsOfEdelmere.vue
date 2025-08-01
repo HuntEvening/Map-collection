@@ -1,13 +1,14 @@
 <template>
   <div>
     <StoryArea
-      file-name="Just-this-last-job.md"
+      fileName="Guards-of-Edelmere.md"
       :bgTheme="false"
-      storyType="Backstory"
-      title="Just this last job"
-      description="PART '13' OF THE ELITHANA STORY"
-      world="KIRIEL - YEREN'GAR"
-      imageSrc="sergey-demidov-astral-island.jpg"
+      storyType="Story"
+      title="Guards of Edelmere"
+      description="PART '22' OF THE ELITHANA STORY"
+      world="KIRIEL - ADRELA"
+      imageSrc="eddie-mendoza-chateau.jpg"
+      link="/guards-of-edelmer"
     ></StoryArea>
   </div>
 </template>
@@ -15,7 +16,7 @@
 <script>
 import StoryArea from '@/components/StoryArea.vue';
 export default {
-  name: 'LastJob',
+  name: 'GuardsOfEdelmere',
   components: { StoryArea },
   data() {
     return {};
@@ -26,4 +27,5 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/assets/css/base.scss';
+
 </style>

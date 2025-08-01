@@ -80,10 +80,9 @@ a {
     margin-top: 55px;
     max-height: 300px;
     max-width: 470px;
-    min-width: 26vw;
 
     width: 100%;
-    aspect-ratio: 2/3;
+    aspect-ratio:5/3;
     object-fit: cover;
   }
 }

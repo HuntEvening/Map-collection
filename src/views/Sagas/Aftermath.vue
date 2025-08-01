@@ -5,7 +5,7 @@
       :bgTheme="false"
       storyType="Backstory"
       title="Aftermath"
-      description="PART 3 OF THE ELITHANA STORY"
+      description="PART '14' OF THE ELITHANA STORY"
       world="KIRIEL - YEREN'GAR"
       imageSrc="raphael-lacoste-mushies-final-net.jpg"
       link="/aftermath"
