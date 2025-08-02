@@ -1,13 +1,14 @@
 <template>
   <div class="sagas">
-<!--     <StoryBanner
-      :bgTheme="true"
-      storyType="Backstory"
-      title="Unexpected appearance"
-      description="PART 1 OF THE ELITHANA STORY"
-      world="KIRIEL - YEREN'GAR"
-      link="/unexpected-appearance"
-    /> -->
+    <StoryBanner
+      :bgTheme="false"
+      storyType="Story"
+      title="Surface job"
+      description="PART '1' OF THE ELITHANA STORY"
+      world="KIRIEL - UNDERDARK"
+      imageSrc="muun-bgk010-f-copy.jpg"
+      link="/surface-job"
+    />
     <StoryBanner
       :bgTheme="false"
       storyType="Story"
@@ -44,15 +45,6 @@
       imageSrc="eddie-mendoza-chateau.jpg"
       link="/Guards-of-Edelmere"
     />
-
-<!--     <StoryBanner
-      :bgTheme="true"
-      storyType="Story"
-      title="Surface job"
-      description="Memory of the past"
-      world="KIRIEL - ADRELA"
-      link="/surface-job"
-    /> -->
   </div>
 </template>
 
