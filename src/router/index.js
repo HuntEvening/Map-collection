@@ -20,6 +20,8 @@ import AfterMath from '@/views/Sagas/Aftermath.vue';
 import SurfaceJob from '@/views/Sagas/SurfaceJob.vue';
 import WhosThere from '@/views/Sagas/WhosThere.vue';
 import GuardsOfEdelmere from '@/views/Sagas/GuardsOfEdelmere.vue';
+import MementoMori from '@/views/Sagas/MementoMori.vue';
+
 
 import AleriaPage from '@/views/CharacterPages/Aleria.vue';
 import AhraanPage from '@/views/CharacterPages/Ahraan.vue';
@@ -125,6 +127,11 @@ const routesList = [
     path: '/guards-of-edelmere',
     name: 'Guards-of-Edelmere',
     component: GuardsOfEdelmere,
+  },
+  {
+    path: '/memento-mori',
+    name: 'Memento-Mori',
+    component: MementoMori,
   },
   // characters
   {
