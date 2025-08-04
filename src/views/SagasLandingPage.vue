@@ -45,6 +45,15 @@
       imageSrc="eddie-mendoza-chateau.jpg"
       link="/Guards-of-Edelmere"
     />
+    <StoryBanner
+      :bgTheme="false"
+      storyType="Backstory"
+      title="The battle of Memento Mori"
+      description="BACKSTORY FOR FELEN COREWOOD"
+      world="KROZLYIS - MEMENTO MORI"
+      imageSrc="jaromir-hrivnac-first-arwork-sketch-04.jpg"
+      link="/Memento-Mori"
+    />
   </div>
 </template>
 
