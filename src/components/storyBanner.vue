@@ -59,7 +59,7 @@ export default {
       let images = require.context(
         '../assets/img/storyImages/',
         true,
-        /\.png$|\.jpg$/
+        /\.(png|jpe?g|webp)$/
       );
       return images('./' + path);
     },

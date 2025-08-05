@@ -6,7 +6,7 @@
       title="Surface job"
       description="PART '1' OF THE ELITHANA STORY"
       world="KIRIEL - UNDERDARK"
-      imageSrc="muun-bgk010-f-copy.jpg"
+      imageSrc="muun-bgk010-f-copy.webp"
       link="/surface-job"
     />
     <StoryBanner
@@ -15,7 +15,7 @@
       title="Just this last job"
       description="PART '13' OF THE ELITHANA STORY"
       world="KIRIEL - YEREN'GAR"
-      imageSrc="sergey-demidov-astral-island.jpg"
+      imageSrc="sergey-demidov-astral-island.webp"
       link="/last-job"
     />
     <StoryBanner
@@ -24,7 +24,7 @@
       title="Aftermath"
       description="PART '14' OF THE ELITHANA STORY"
       world="KIRIEL - YEREN'GAR"
-      imageSrc="raphael-lacoste-mushies-final-net.jpg"
+      imageSrc="raphael-lacoste-mushies-final-net.webp"
       link="/aftermath"
     />
     <StoryBanner
@@ -33,7 +33,7 @@
       title="Who's there"
       description="PART '15' OF THE ELITHANA STORY"
       world="KIRIEL - YEREN'GAR"
-      imageSrc="tomas-matous-castle-dark.jpg"
+      imageSrc="tomas-matous-castle-dark.webp"
       link="/Whos-there"
     />
     <StoryBanner
@@ -42,7 +42,7 @@
       title="Guards of Edelmere"
       description="PART '22' OF THE ELITHANA STORY"
       world="KIRIEL - ADRELA"
-      imageSrc="eddie-mendoza-chateau.jpg"
+      imageSrc="eddie-mendoza-chateau.webp"
       link="/Guards-of-Edelmere"
     />
     <StoryBanner
@@ -51,7 +51,7 @@
       title="The battle of Memento Mori"
       description="BACKSTORY FOR FELEN COREWOOD"
       world="KROZLYIS - MEMENTO MORI"
-      imageSrc="jaromir-hrivnac-first-arwork-sketch-04.jpg"
+      imageSrc="jaromir-hrivnac-first-arwork-sketch-04.webp"
       link="/Memento-Mori"
     />
   </div>

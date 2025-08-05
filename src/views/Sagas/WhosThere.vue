@@ -7,7 +7,7 @@
       title="Who's there?"
       description="PART '15' OF THE ELITHANA STORY"
       world="KIRIEL - YEREN'GAR"
-      imageSrc="tomas-matous-castle-dark.jpg"
+      imageSrc="tomas-matous-castle-dark.webp"
       link="/whos-there"
     ></StoryArea>
   </div>

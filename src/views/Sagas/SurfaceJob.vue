@@ -7,7 +7,7 @@
       title="Surface job"
       description="PART '1' OF THE ELITHANA STORY"
       world="KIRIEL - UNDERDARK"
-      imageSrc="muun-bgk010-f-copy.jpg"
+      imageSrc="muun-bgk010-f-copy.webp"
     ></StoryArea>
   </div>
 </template>

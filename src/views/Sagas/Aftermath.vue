@@ -7,7 +7,7 @@
       title="Aftermath"
       description="PART '14' OF THE ELITHANA STORY"
       world="KIRIEL - YEREN'GAR"
-      imageSrc="raphael-lacoste-mushies-final-net.jpg"
+      imageSrc="raphael-lacoste-mushies-final-net.webp"
       link="/aftermath"
     ></StoryArea>
   </div>
