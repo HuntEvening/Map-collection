@@ -17,7 +17,7 @@
         storyType="Backstory"
         title="Just this last job"
         description="PART 2 OF THE ELITHANA STORY"
-        imageSrc="sergey-demidov-astral-island.jpg"
+        imageSrc="sergey-demidov-astral-island.webp"
         link="/last-job"
       />
       <StoryBanner
@@ -25,7 +25,7 @@
         storyType="Backstory"
         title="Aftermath"
         description="PART 3 OF THE ELITHANA STORY"
-        imageSrc="raphael-lacoste-mushies-final-net.jpg"
+        imageSrc="raphael-lacoste-mushies-final-net.webp"
         link="/aftermath"
       />
     </div>

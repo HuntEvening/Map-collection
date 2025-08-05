@@ -7,7 +7,7 @@
       title="Guards of Edelmere"
       description="PART '22' OF THE ELITHANA STORY"
       world="KIRIEL - ADRELA"
-      imageSrc="muun-bgk010-f-copy.jpg"
+      imageSrc="muun-bgk010-f-copy.webp"
     ></StoryArea>
   </div>
 </template>

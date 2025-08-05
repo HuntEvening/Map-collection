@@ -48,10 +48,10 @@ export default {
       `<a href="/unexpected-appearance">Saga: Unexpected appearance</a>`
     );
     const LastJob = L.marker([4100, 4000]).bindPopup(
-      `<img class="marker-image" src="${require('../../assets/img/storyImages/sergey-demidov-astral-island.jpg')}"><a href="/last-job">Saga: Just this last job</a>`
+      `<img class="marker-image" src="${require('../../assets/img/storyImages/sergey-demidov-astral-island.webp')}"><a href="/last-job">Saga: Just this last job</a>`
     );
     const AfterMath = L.marker([3610, 4230]).bindPopup(
-      `<img class="marker-image" src="${require('../../assets/img/storyImages/raphael-lacoste-mushies-final-net.jpg')}"><a href="/aftermath">Saga: Aftermath</a>`
+      `<img class="marker-image" src="${require('../../assets/img/storyImages/raphael-lacoste-mushies-final-net.webp')}"><a href="/aftermath">Saga: Aftermath</a>`
     );
     var sagas = L.layerGroup([UnexpectedAppearance, LastJob, AfterMath]);
 

@@ -7,7 +7,7 @@
       title="The battle of Memento Mori"
       description="BACKSTORY FOR FELEN COREWOOD"
       world="KROZLYIS - MEMENTO MORI"
-      imageSrc="jaromir-hrivnac-first-arwork-sketch-04.jpg"
+      imageSrc="jaromir-hrivnac-first-arwork-sketch-04.webp"
     ></StoryArea>
   </div>
 </template>

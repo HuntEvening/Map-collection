@@ -38,7 +38,7 @@ export default {
       mdFile: '',
       // bgTheme: false,
       // description: 'PART 2 OF THE ELITHANA STORY',
-      // imageSrc: 'sergey-demidov-astral-island.jpg',
+      // imageSrc: 'sergey-demidov-astral-island.webp',
       // storyType: 'Backstory',
       // title: 'Just this last job',
     };
@@ -82,7 +82,7 @@ export default {
       let images = require.context(
         '../assets/img/storyImages/',
         true,
-        /\.png$|\.jpg$/
+        /\.(png|jpe?g|webp)$/
       );
       return images('./' + path);
     },
@@ -121,7 +121,6 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
 
   h4 {
     color: $text-light;
@@ -163,7 +162,6 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   border: 3px solid $text-mid;
   background-color: $bg-light;
   background-image: url('../assets/img/paper-texturelines.png');
