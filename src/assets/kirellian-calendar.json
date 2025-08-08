@@ -1,0 +1,444 @@
+{
+  "name": "Kirellian Calendar",
+  "static_data": {
+    "year_data": {
+      "first_day": 1,
+      "overflow": true,
+      "global_week": [
+        "Moxday",
+        "Itillday",
+        "Ortaday",
+        "Thamday",
+        "Igmunday",
+        "Lyramday",
+        "Finiday"
+      ],
+      "timespans": [
+        {
+          "name": "Axill - 1",
+          "type": "month",
+          "length": 28,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Ilsimmar - 2",
+          "type": "month",
+          "length": 28,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Miere - 3",
+          "type": "month",
+          "length": 28,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Artis",
+          "type": "month",
+          "length": 1,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Aribum - 4",
+          "type": "month",
+          "length": 28,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Etfrin - 5",
+          "type": "month",
+          "length": 28,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Gyllip - 6",
+          "type": "month",
+          "length": 28,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Artan",
+          "type": "month",
+          "length": 1,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Terfa - 7",
+          "type": "month",
+          "length": 28,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Erudos - 8",
+          "type": "month",
+          "length": 28,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Symas - 9",
+          "type": "month",
+          "length": 28,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Artum",
+          "type": "month",
+          "length": 1,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Gileon - 10",
+          "type": "month",
+          "length": 28,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Masym - 11",
+          "type": "month",
+          "length": 28,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Vyn - 12",
+          "type": "month",
+          "length": 28,
+          "interval": 1,
+          "offset": 0
+        },
+        {
+          "name": "Alurir",
+          "type": "month",
+          "length": 1,
+          "interval": 1,
+          "offset": 0
+        }
+      ],
+      "leap_days": []
+    },
+    "moons": [
+      {
+        "name": "Alitas",
+        "cycle_rounding": "round",
+        "granularity": 24,
+        "color": "#ffffff",
+        "shadow_color": "#232844",
+        "hidden": false,
+        "custom_phase": false,
+        "cycle": 28,
+        "shift": 0
+      }
+    ],
+    "clock": {
+      "enabled": true,
+      "render": true,
+      "hours": 24,
+      "minutes": 60,
+      "offset": 0,
+      "crowding": 0
+    },
+    "seasons": {
+      "data": [
+        {
+          "name": "Ari'ri - Spring",
+          "color": ["#547e50", "#547e50"],
+          "time": {
+            "sunrise": {
+              "hour": 6,
+              "minute": 8
+            },
+            "sunset": {
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          "transition_length": 85,
+          "duration": 0,
+          "gradient": {
+            "start": [117, 27.5, 49.2],
+            "end": [117, 27.5, 49.2]
+          },
+          "length": 85,
+          "start": 0,
+          "end": 85
+        },
+        {
+          "name": "Aro'ro - Summer",
+          "color": ["#c79d28", "#c79d28"],
+          "time": {
+            "sunrise": {
+              "hour": 3,
+              "minute": 33
+            },
+            "sunset": {
+              "hour": 22,
+              "minute": 10
+            }
+          },
+          "transition_length": 85,
+          "duration": 0,
+          "gradient": {
+            "start": [48, 84.3, 49.8],
+            "end": [48, 84.3, 49.8]
+          },
+          "length": 85,
+          "start": 85,
+          "end": 170
+        },
+        {
+          "name": "En - Autumn",
+          "color": ["#b6664b", "#b6664b"],
+          "time": {
+            "sunrise": {
+              "hour": 6,
+              "minute": 12
+            },
+            "sunset": {
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          "transition_length": 85,
+          "duration": 0,
+          "gradient": {
+            "start": [18, 59.1, 56.9],
+            "end": [18, 59.1, 56.9]
+          },
+          "length": 85,
+          "start": 170,
+          "end": 255
+        },
+        {
+          "name": "Erl'ern - Winter",
+          "color": ["#3f7f86", "#3f7f86"],
+          "time": {
+            "sunrise": {
+              "hour": 6,
+              "minute": 10
+            },
+            "sunset": {
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          "transition_length": 85,
+          "duration": 0,
+          "gradient": {
+            "start": [191, 70.6, 41.4],
+            "end": [191, 70.6, 41.4]
+          },
+          "length": 85,
+          "start": 255,
+          "end": 340
+        }
+      ],
+      "locations": [],
+      "global_settings": {
+        "season_offset": 42,
+        "weather_offset": null,
+        "seed": 1366403006,
+        "temp_sys": "metric",
+        "wind_sys": "metric",
+        "cinematic": false,
+        "enable_weather": false,
+        "periodic_seasons": true,
+        "color_enabled": true,
+        "preset_order": [1, 2, 3, 0]
+      }
+    },
+    "eras": [],
+    "settings": {
+      "layout": "grid",
+      "comments": "none",
+      "show_current_month": false,
+      "private": false,
+      "allow_view": true,
+      "only_backwards": true,
+      "only_reveal_today": false,
+      "hide_moons": false,
+      "hide_clock": false,
+      "hide_events": false,
+      "hide_eras": false,
+      "hide_all_weather": false,
+      "hide_future_weather": false,
+      "add_month_number": false,
+      "add_year_day_number": false,
+      "default_category": -1
+    },
+    "cycles": {
+      "format": "",
+      "data": []
+    }
+  },
+  "dynamic_data": {
+    "year": 33200,
+    "timespan": 5,
+    "day": 28,
+    "epoch": 11287800,
+    "custom_location": false,
+    "location": null,
+    "hour": 0,
+    "minute": 0,
+    "current_era": -1
+  },
+  "events": [
+    {
+      "id": 1369448,
+      "name": "Artis",
+      "data": {
+        "has_duration": false,
+        "duration": 1,
+        "show_first_last": false,
+        "limited_repeat": false,
+        "limited_repeat_num": 1,
+        "conditions": [["Day", "0", ["1"]], ["&&"], ["Month", "0", ["3"]]],
+        "connected_events": [],
+        "date": [],
+        "search_distance": 0,
+        "overrides": {
+          "moons": [
+            {
+              "color": "#b33d3d"
+            }
+          ]
+        }
+      },
+      "description": "",
+      "event_category_id": -1,
+      "calendar_id": "kirellian-calendar",
+      "settings": {
+        "color": "Red",
+        "text": "background",
+        "hide": false,
+        "print": false,
+        "hide_full": false
+      },
+      "created_at": "2022-09-24 14:56:00",
+      "updated_at": "2022-09-24 14:56:00",
+      "sort_by": 0,
+      "creator_id": 41667
+    },
+    {
+      "id": 1369449,
+      "name": "Artan",
+      "data": {
+        "has_duration": false,
+        "duration": 1,
+        "show_first_last": false,
+        "limited_repeat": false,
+        "limited_repeat_num": 1,
+        "conditions": [["Day", "0", ["1"]], ["&&"], ["Month", "0", ["7"]]],
+        "connected_events": [],
+        "date": [],
+        "search_distance": 0,
+        "overrides": {
+          "moons": [
+            {
+              "color": "#b33d3d"
+            }
+          ]
+        }
+      },
+      "description": "",
+      "event_category_id": -1,
+      "calendar_id": "kirellian-calendar",
+      "settings": {
+        "color": "Red",
+        "text": "background",
+        "hide": false,
+        "print": false,
+        "hide_full": false
+      },
+      "created_at": "2022-09-24 14:56:00",
+      "updated_at": "2022-09-24 14:56:00",
+      "sort_by": 1,
+      "creator_id": 41667
+    },
+    {
+      "id": 1369450,
+      "name": "Artum",
+      "data": {
+        "has_duration": false,
+        "duration": 1,
+        "show_first_last": false,
+        "limited_repeat": false,
+        "limited_repeat_num": 1,
+        "conditions": [["Day", "0", ["1"]], ["&&"], ["Month", "0", ["11"]]],
+        "connected_events": [],
+        "date": [],
+        "search_distance": 0,
+        "overrides": {
+          "moons": [
+            {
+              "color": "#b33d3d"
+            }
+          ]
+        }
+      },
+      "description": "",
+      "event_category_id": -1,
+      "calendar_id": "kirellian-calendar",
+      "settings": {
+        "color": "Red",
+        "text": "background",
+        "hide": false,
+        "print": false,
+        "hide_full": false
+      },
+      "created_at": "2022-09-24 14:56:00",
+      "updated_at": "2022-09-24 14:56:00",
+      "sort_by": 2,
+      "creator_id": 41667
+    },
+    {
+      "id": 1369451,
+      "name": "Alurir",
+      "data": {
+        "has_duration": false,
+        "duration": 1,
+        "show_first_last": false,
+        "limited_repeat": false,
+        "limited_repeat_num": 1,
+        "conditions": [["Day", "0", ["1"]], ["&&"], ["Month", "0", ["15"]]],
+        "connected_events": [],
+        "date": [],
+        "search_distance": 0,
+        "overrides": {
+          "moons": [
+            {
+              "color": "#b33d3d"
+            }
+          ]
+        }
+      },
+      "description": "",
+      "event_category_id": -1,
+      "calendar_id": "kirellian-calendar",
+      "settings": {
+        "color": "Red",
+        "text": "background",
+        "hide": false,
+        "print": false,
+        "hide_full": false
+      },
+      "created_at": "2022-09-24 14:56:00",
+      "updated_at": "2022-09-24 14:56:00",
+      "sort_by": 3,
+      "creator_id": 41667
+    }
+  ],
+  "categories": []
+}

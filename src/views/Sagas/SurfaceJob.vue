@@ -8,6 +8,8 @@
       description="PART '1' OF THE ELITHANA STORY"
       world="KIRIEL - UNDERDARK"
       imageSrc="muun-bgk010-f-copy.webp"
+      :focusDate="{ year: 33093, timespan: 14, day: 16 }"
+      linkText="16th of Vyn 33093"
     ></StoryArea>
   </div>
 </template>

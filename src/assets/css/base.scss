@@ -1,5 +1,6 @@
 $bg-light: #c4b098;
 $bg-dark: #131b1f;
+$bg-mid: #464543;
 
 $text-light: #ececec;
 $text-mid: #9d7a61;
@@ -8,6 +9,7 @@ $text-dark: #0a1215;
 $hl-red-1: #660101; */
 $hl-red-1: #8a0202;
 $hl-red-2: #3a0000;
+$hl-blue-1: #3f7f86;
 
 $paragraph-font: 'Merriweather';
 $paragraph-font-light: 'Merriweather-light';
@@ -18,6 +20,7 @@ $heading-size-2: 40px;
 $heading-size-3: 30px;
 $heading-size-4: 25px;
 $heading-size-5: 20px;
+$heading-size-6: 15px;
 
 $heading-size-1-mobile: 60px;
 $heading-size-2-mobile: 25px;
@@ -29,6 +32,8 @@ $paragraph-size-2: 20px;
 $paragraph-size-3: 18px;
 $paragraph-size-4: 16px;
 $paragraph-size-4-mobile: 14px;
+$paragraph-size-5: 14px;
+$paragraph-size-6: 10px;
 
 $menu-color: #ffffff;
 $menu-font-size: 2.5rem;
@@ -86,6 +91,13 @@ h5 {
   color: $text-mid;
   font-weight: 300;
 }
+h6 {
+  font-family: $paragraph-font-light;
+  font-size: $heading-size-6;
+  font-weight: 300;
+
+  color: $text-light;
+}
 .white {
   color: $text-light !important;
   font-weight: 400;
@@ -114,6 +126,12 @@ figcaption {
   font-family: $paragraph-font-light;
   font-size: $paragraph-size-4;
   color: $text-light;
+}
+.lil-txt {
+  font-family: $paragraph-font-light;
+  font-size: $paragraph-size-6;
+  color: $text-light;
+  font-weight: 400;
 }
 @font-face {
   font-family: 'Merriweather';

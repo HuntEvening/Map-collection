@@ -55,6 +55,16 @@
           link="/elithana"
         ></CharacterCard>
       </div>
+        <h1 class="light">Calendar</h1>
+      <div class="char-card-group">
+      <MapCard
+          header="Kiriellian Calendar"
+          imageSrc="HollowMini4883.png"
+          description=""
+          link="/kirellian-calendar"
+          button="false"
+        ></MapCard>
+      </div>
     </div>
   </div>
 </template>

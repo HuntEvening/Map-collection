@@ -8,7 +8,8 @@
       description="PART '14' OF THE ELITHANA STORY"
       world="KIRIEL - YEREN'GAR"
       imageSrc="raphael-lacoste-mushies-final-net.webp"
-      link="/aftermath"
+      :focusDate="{ year: 33200, timespan: 6, day: 10 }"
+      linkText="10th of Gyllip 33200"
     ></StoryArea>
   </div>
 </template>
@@ -27,5 +28,4 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/assets/css/base.scss';
-
 </style>

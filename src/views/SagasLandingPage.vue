@@ -8,6 +8,7 @@
       world="KIRIEL - UNDERDARK"
       imageSrc="muun-bgk010-f-copy.webp"
       link="/surface-job"
+      date="16th of Vyn 33093"
     />
     <StoryBanner
       :bgTheme="false"
@@ -17,6 +18,7 @@
       world="KIRIEL - YEREN'GAR"
       imageSrc="sergey-demidov-astral-island.webp"
       link="/last-job"
+      date="28th of Etfrin  33200"
     />
     <StoryBanner
       :bgTheme="false"
@@ -26,6 +28,7 @@
       world="KIRIEL - YEREN'GAR"
       imageSrc="raphael-lacoste-mushies-final-net.webp"
       link="/aftermath"
+      date="10th of Gyllip 33200"
     />
     <StoryBanner
       :bgTheme="false"
@@ -35,6 +38,7 @@
       world="KIRIEL - YEREN'GAR"
       imageSrc="tomas-matous-castle-dark.webp"
       link="/Whos-there"
+      date="24th of Gyllip 33200"
     />
     <StoryBanner
       :bgTheme="false"
@@ -44,6 +48,7 @@
       world="KIRIEL - ADRELA"
       imageSrc="eddie-mendoza-chateau.webp"
       link="/Guards-of-Edelmere"
+      date="7th of Symas 33237"
     />
     <StoryBanner
       :bgTheme="false"
