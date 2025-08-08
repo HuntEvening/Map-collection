@@ -7,7 +7,9 @@
       title="Guards of Edelmere"
       description="PART '22' OF THE ELITHANA STORY"
       world="KIRIEL - ADRELA"
-      imageSrc="muun-bgk010-f-copy.webp"
+      imageSrc="eddie-mendoza-chateau.webp"
+      :focusDate="{ year: 33237, timespan: 10, day: 7 }"
+      linkText="7th of Symas 33237"
     ></StoryArea>
   </div>
 </template>
@@ -26,5 +28,4 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/assets/css/base.scss';
-
 </style>

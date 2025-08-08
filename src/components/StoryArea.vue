@@ -20,6 +20,10 @@
       <p>
         {{ world }}
       </p>
+      <DateModal
+        :focusDate="focusDate"
+        :linkText="linkText"
+      ></DateModal>
     </div>
     <div class="markdown-container">
       <VueShowdown :markdown="mdFile" flavor="github" />
@@ -29,10 +33,11 @@
 
 <script>
 import { VueShowdown } from 'vue-showdown';
+import DateModal from '@/components/dateModal.vue';
 
 export default {
   name: 'StoryArea',
-  components: { VueShowdown },
+  components: { VueShowdown, DateModal },
   data() {
     return {
       mdFile: '',
@@ -67,7 +72,15 @@ export default {
       type: Boolean,
       default: false,
     },
+    focusDate: {
+      type: Object,
+      default: null,
+    },
+     linkText: {
+      type: String,
+    },
   },
+
   created() {
     var client = new XMLHttpRequest();
     client.open('GET', `assets/sagas/${this.fileName}`);
@@ -79,11 +92,7 @@ export default {
   },
   methods: {
     resolve_img_url: function (path) {
-      let images = require.context(
-        '../assets/img/storyImages/',
-        true,
-        /\.(png|jpe?g|webp)$/
-      );
+      let images = require.context('../assets/img/storyImages/', true, /\.(png|jpe?g|webp)$/);
       return images('./' + path);
     },
   },

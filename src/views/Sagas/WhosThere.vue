@@ -8,7 +8,8 @@
       description="PART '15' OF THE ELITHANA STORY"
       world="KIRIEL - YEREN'GAR"
       imageSrc="tomas-matous-castle-dark.webp"
-      link="/whos-there"
+      :focusDate="{ year: 33200, timespan: 6, day: 24 }"
+      linkText="24th of Gyllip 33200"
     ></StoryArea>
   </div>
 </template>
@@ -27,5 +28,4 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/assets/css/base.scss';
-
 </style>

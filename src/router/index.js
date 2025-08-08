@@ -5,6 +5,7 @@ import SagasLandingPage from '@/views/SagasLandingPage.vue';
 import KirielWorldPage from '@/views/KirielWorldPage.vue';
 import KrozlyisWorldPage from '@/views/KrozlyisWorldPage.vue';
 import NocturaWorldPage from '@/views/NocturaWorldPage.vue';
+import CalendarPage from '@/views/CalendarPage.vue';
 
 import AdrelaLereonPage from '@/views/KirielMaps/AdrelaLereonMapPage.vue';
 import ElarisPage from '@/views/KirielMaps/ElarisMapPage.vue';
@@ -21,7 +22,6 @@ import SurfaceJob from '@/views/Sagas/SurfaceJob.vue';
 import WhosThere from '@/views/Sagas/WhosThere.vue';
 import GuardsOfEdelmere from '@/views/Sagas/GuardsOfEdelmere.vue';
 import MementoMori from '@/views/Sagas/MementoMori.vue';
-
 
 import AleriaPage from '@/views/CharacterPages/Aleria.vue';
 import AhraanPage from '@/views/CharacterPages/Ahraan.vue';
@@ -61,6 +61,12 @@ const routesList = [
     name: 'Noctura',
     component: NocturaWorldPage,
   },
+  {
+    path: '/kirellian-calendar',
+    name: 'Kirellian Calendar',
+    component: CalendarPage,
+  },
+
   //map pages
   {
     path: '/krozlyis-map',

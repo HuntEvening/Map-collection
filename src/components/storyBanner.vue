@@ -1,18 +1,13 @@
 <template>
   <div>
-    <router-link
-      :to="link"
-      :class="[button, bgTheme ? 'bg-theme' : 'image-theme']"
-    >
+    <router-link :to="link" :class="[button, bgTheme ? 'bg-theme' : 'image-theme']">
       <div class="text-area">
         <h4>{{ storyType }}</h4>
         <h1>{{ title }}</h1>
         <p>{{ description }}</p>
         <p>{{ world }}</p>
-        <Button
-          title="Read story"
-          :redVariant="bgTheme ? true : false"
-        ></Button>
+        <h6>{{ date }}</h6>
+        <Button title="Read story" :redVariant="bgTheme ? true : false"></Button>
       </div>
       <div v-if="imageSrc" class="img-overlay"></div>
       <img v-if="imageSrc" :src="resolve_img_url(imageSrc)" />
@@ -40,6 +35,9 @@ export default {
     imageSrc: {
       type: String,
     },
+    date: {
+      type: String,
+    },
     bgTheme: {
       type: Boolean,
       default: false,
@@ -56,11 +54,7 @@ export default {
   },
   methods: {
     resolve_img_url: function (path) {
-      let images = require.context(
-        '../assets/img/storyImages/',
-        true,
-        /\.(png|jpe?g|webp)$/
-      );
+      let images = require.context('../assets/img/storyImages/', true, /\.(png|jpe?g|webp)$/);
       return images('./' + path);
     },
   },
