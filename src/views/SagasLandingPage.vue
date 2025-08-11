@@ -54,10 +54,18 @@
       :bgTheme="false"
       storyType="Backstory"
       title="The battle of Memento Mori"
-      description="BACKSTORY FOR FELEN COREWOOD"
+      description="BACKSTORY FOR FELEN COREWOOD - part 1"
       world="KROZLYIS - MEMENTO MORI"
       imageSrc="jaromir-hrivnac-first-arwork-sketch-04.webp"
       link="/Memento-Mori"
+    />
+    <StoryBanner
+      :bgTheme="true"
+      storyType="Backstory"
+      title="Report - Corewood"
+      description="BACKSTORY FOR FELEN COREWOOD - part 2"
+      world="KROZLYIS - Blazeport"
+      link="/Report-Corewood"
     />
   </div>
 </template>
