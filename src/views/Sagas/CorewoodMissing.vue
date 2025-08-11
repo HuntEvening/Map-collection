@@ -1,13 +1,12 @@
 <template>
   <div>
     <StoryArea
-      fileName="Memento-Mori.md"
-      :bgTheme="false"
+      fileName="Corewood-missing.md"
+      :bgTheme="true"
       storyType="Backstory"
-      title="The battle of Memento Mori"
-      description="BACKSTORY FOR FELEN COREWOOD - part 1"
-      world="KROZLYIS - MEMENTO MORI"
-      imageSrc="jaromir-hrivnac-first-arwork-sketch-04.webp"
+      title="Report - Corewood"
+      description="BACKSTORY FOR FELEN COREWOOD - PART 2"
+      world="KROZLYIS - Blazeport"
     ></StoryArea>
   </div>
 </template>
@@ -15,7 +14,7 @@
 <script>
 import StoryArea from '@/components/StoryArea.vue';
 export default {
-  name: 'MementoMori',
+  name: 'CorewoodMissing',
   components: { StoryArea },
   data() {
     return {};
