@@ -63,9 +63,18 @@
       :bgTheme="true"
       storyType="Backstory"
       title="Report - Corewood"
-      description="BACKSTORY FOR FELEN COREWOOD - part 2"
-      world="KROZLYIS - Blazeport"
+      description="BACKSTORY FOR FELEN COREWOOD - PART 2"
+      world="KROZLYIS - BLAZEPORT"
       link="/Report-Corewood"
+    />
+    <StoryBanner
+      :bgTheme="false"
+      storyType="Backstory"
+      title="Warm waters"
+      description="BACKSTORY FOR ALERIA - PART 1"
+      world="KROZLYIS - FLAMEROCK"
+      link="/Warm-waters"
+      imageSrc="nikjas-adam-harmony-ue5-by-nikjas-adam-6.webp"
     />
   </div>
 </template>
