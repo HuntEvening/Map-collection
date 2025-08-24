@@ -23,6 +23,8 @@ import WhosThere from '@/views/Sagas/WhosThere.vue';
 import GuardsOfEdelmere from '@/views/Sagas/GuardsOfEdelmere.vue';
 import MementoMori from '@/views/Sagas/MementoMori.vue';
 import CorewoodMissing from '@/views/Sagas/CorewoodMissing.vue';
+import WarmWaters from '@/views/Sagas/WarmWaters.vue';
+
 
 import AleriaPage from '@/views/CharacterPages/Aleria.vue';
 import AhraanPage from '@/views/CharacterPages/Ahraan.vue';
@@ -144,6 +146,11 @@ const routesList = [
     path: '/report-corewood',
     name: 'Report-Corewood',
     component: CorewoodMissing,
+  },
+  {
+    path: '/warm-waters',
+    name: 'Warm-Waters',
+    component: WarmWaters,
   },
   // characters
   {

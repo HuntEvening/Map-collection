@@ -1,12 +1,13 @@
 <template>
   <div>
     <StoryArea
-      fileName="Corewood-missing.md"
-      :bgTheme="true"
+      fileName="Warm-waters.md"
+      :bgTheme="false"
       storyType="Backstory"
-      title="Report - Corewood"
-      description="BACKSTORY FOR FELEN COREWOOD - PART 2"
-      world="KROZLYIS - Blazeport"
+      title="Warm Waters"
+      description="BACKSTORY FOR ALERIA - PART 1"
+      world="KROZLYIS - FLAMEROCK"
+      imageSrc="nikjas-adam-harmony-ue5-by-nikjas-adam-6.webp"
     ></StoryArea>
   </div>
 </template>
@@ -14,7 +15,7 @@
 <script>
 import StoryArea from '@/components/StoryArea.vue';
 export default {
-  name: 'CorewoodMissing',
+  name: 'WarmWaters',
   components: { StoryArea },
   data() {
     return {};
@@ -23,7 +24,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped> 
+<style lang="scss" scoped>
 @import '@/assets/css/base.scss';
 
 </style>
